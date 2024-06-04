@@ -4,7 +4,7 @@ game 'gta5'
 description 'progressbar'
 version '1.0.0'
 
-ui_page('html/index2.html') 
+ui_page('html/index.html') 
 
 client_scripts {
     'client/main.lua',
@@ -12,7 +12,7 @@ client_scripts {
 
 files {
     'html/index2.html',
-    'html/css/style2.css',
+    'html/css/style.css',
     'html/js/script.js',
     'html/css/MonumentExtended-Regular.otf',
 
