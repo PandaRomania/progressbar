@@ -15,8 +15,7 @@ files {
     'html/css/style.css',
     'html/js/script.js',
     'html/css/MonumentExtended-Regular.otf',
-
-    'html/css/bootstrap.min.css',
+    
     'html/js/jquery.min.js',
 }
 
