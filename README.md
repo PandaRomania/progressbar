@@ -17,3 +17,4 @@ Hey, thanks for taking a look at one of my resources <3. Not let me give you som
 If you already have the basic QBCore progress in your server, delete the old one and add this one
 
 # Images
+![image](https://github.com/PandaRomania/progressbar/assets/171713349/479cb63c-b093-404f-b8d1-76597667b5fe)
