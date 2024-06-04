@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Monument';
+    src: url(MonumentExtended-Regular.otf);
+}
+
+body {
+    font-family: 'Monument';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background: url('/mnt/data/PozaChat.png') no-repeat center center fixed; */
+    background: transparent !important;
+    background-size: cover;
+    margin: 0;
+}
+
+.progress-container {
+    /* background-color: rgba(43, 43, 43, 0.75); */
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 450px;
+    height: 115.25px;
+    position: absolute;
+    bottom: 10%; /* Positioning the container at the bottom */
+    display: none; 
+}
+
+.progress-labels {
+    margin-bottom: 10px;
+}
+
+#progress-label {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.progress-bar-container {
+    background-color: rgba(26, 26, 26, 0.8);
+    border-radius: 22px;
+    height: 19.96px; /* Ensuring consistent height for container */
+    position: relative;
+    box-shadow: 0 0 15px rgba(26, 26, 26, 0.8); /* Shadow outside the container */
+}
+
+.progress-bar {
+    height: 100%; /* Adjusting to match container height */
+    width: 0;
+    border-radius: 22px;
+    background-color: #F2CB00;
+    box-shadow: 0 0 10px #F2CB00, 0 0 20px #F2CB00, 0 0 30px #F2CB00; /* Glow effect */
+    transition: width 0.4s ease;
+}
+
+
+.progress-esc-container {
+    margin-top: 10px;
+}
+
+#progress-esc {
+    color: white;
+    font-size: 15px;
+}
